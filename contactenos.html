@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+<body>
+      <!--inicia nuestro menu de la pagina-->
+
+<nav> 
+    <ul class="menu">
+        <li class="logo">
+           
+                <!--imagen del logo-->
+                <img src="./img/logo.png" alt="">
+            </a>
+        </li>
+        <li><a href="./index.html"> inicio </a></li>
+        <li> <a href="./contactenos.html"> contactenos</a></li>
+         <!--<li> <a href="#"> materias</a></li>-->
+    </ul>
+    </nav>
+    <!--fin del menu de la pagina -->
+
+
+  <div class="container">
+    <h1> formulario personajes de Rick and Marty</h1>
+
+    <div>
+        <form action="" method="post" >
+            <div class="section-flex">
+                <div class="elemnt-form">
+                    <div class="label">
+                        <label for="type">tipo de mensaje</label>
+                        </div>
+                    <select name="type" id="type">
+                        <option value="">selecciones una opcion</option>
+                        <option value="cotizacion">cotizacion </option>
+                        <option value="saludo">saludo</option>
+                        <option value="queja">queja</option>
+                    </select>
+                </div>
+
+                <div class="elemnt-form">
+                    <div class="label">
+                        <label for="name"> nombres </label>
+                        </div>
+                    <input type="text" name="name" id="name" placeholder="ingrese su nombre completo">
+                </div>   
+                
+                <div class="elemnt-form">
+                    <div class="label">
+                        <label for="imeil"> imeil </label>
+                        </div>
+                    <input type="text" name="imeil" id="imeil" placeholder="example@correo.com">
+                </div>     
+
+                <div class="elemnt-form">
+                    <div class="label">
+                        <label for="phone"> celular  </label>
+                        </div>
+                    <input type="text" name="phone" id="phone" placeholder="ingrese su celular">
+                </div>     
+
+                <div class="elemnt-form">
+                    <div class="label">
+                        <label for="coment"> comentario  </label>
+                        </div>
+                  <textarea name="coment" id="coment" cols="30" rows="10" placeholder="ingrese su comentario"></textarea>
+                </div>     
+
+                <div class="btn-div">
+                    <button type="submit" onclick="validaciondatos()"> Enviar Datos </button>
+
+                </div>
+
+
+                
+            </div>
+        </form>
+    </div>
+  </div>
+
+
+    <footer>
+        <p>Creador por Lina Ramirez </p>
+    </footer>
+
+    <script src="./js/javascrip.js"></script>
+
+
+</body>
+</html>
